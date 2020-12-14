@@ -26,6 +26,7 @@ be displayed. Returns json with timestamps and ads count.
 
 **/top** - (method POST) It accepts the json id of the query + region_id. Returns json with links on first 5 ads 
 (excluded VIP ads). If number of ads less than 5, returns None for empty positions.
+
 ---
 ### Database schema:
 ![schema.png](schema.png "schema")
